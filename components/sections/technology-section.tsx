@@ -89,7 +89,7 @@ export function TechnologySection() {
   const [scrollProgress, setScrollProgress] = useState(0);
   const [textProgress, setTextProgress] = useState(0);
   
-  const descriptionText = "Passive architecture reimagining modern living. Triple glazing, reinforced insulation and natural ventilation combine with solar panels to create an energy-autonomous home. Bio-sourced materials like solid wood and hemp wool ensure healthy indoor air and minimal ecological footprint.";
+  const descriptionText = "Mobilny dom zaprojektowany z myślą o przyszłości. Energooszczędny, komfortowy i bliski naturze - gotowy do życia przez cały rok, niezależnie od miejsca.";
 
   useEffect(() => {
     const handleScroll = () => {
