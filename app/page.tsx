@@ -8,11 +8,13 @@ import { CollectionSection } from "@/components/sections/collection-section";
 import { EditorialSection } from "@/components/sections/editorial-section";
 import { TestimonialsSection } from "@/components/sections/testimonials-section";
 import { FooterSection } from "@/components/sections/footer-section";
+import { ScrollDownButton } from "@/components/scroll-down-button";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-background">
       <Header />
+      <ScrollDownButton />
       <HeroSection />
       <PhilosophySection />
       <FeaturedProductsSection />
