@@ -195,9 +195,9 @@ export function HeroSection() {
         style={{ opacity: textOpacity }}
       >
         <p className="mx-auto max-w-2xl text-center text-2xl leading-relaxed text-white md:text-3xl lg:text-[2.5rem] lg:leading-snug">
-          Lightweight, durable
+          Mobilny dom.
           <br />
-          and adventure-ready.
+          Wolność bez kompromisów.
         </p>
       </div>
 
