@@ -42,19 +42,19 @@ export function Header() {
             href="#gallery"
             className="text-sm transition-colors text-muted-foreground hover:text-foreground"
           >
-            Gallery
+            Galeria
           </Link>
           <Link
             href="#accessories"
             className="text-sm transition-colors text-muted-foreground hover:text-foreground"
           >
-            Models
+            Modele
           </Link>
           <Link
             href="#about"
             className="text-sm transition-colors text-muted-foreground hover:text-foreground"
           >
-            About
+            O nas
           </Link>
         </nav>
 
@@ -64,7 +64,7 @@ export function Header() {
             href="#reserve"
             className="px-4 py-2 text-sm font-medium transition-all rounded-full bg-foreground text-background hover:opacity-80"
           >
-            Contact
+            Kontakt
           </Link>
         </div>
 
@@ -95,28 +95,28 @@ export function Header() {
               className="text-lg text-foreground"
               onClick={() => setIsMenuOpen(false)}
             >
-              Gallery
+              Galeria
             </Link>
             <Link
               href="#accessories"
               className="text-lg text-foreground"
               onClick={() => setIsMenuOpen(false)}
             >
-              Models
+              Modele
             </Link>
             <Link
               href="#about"
               className="text-lg text-foreground"
               onClick={() => setIsMenuOpen(false)}
             >
-              About
+              O nas
             </Link>
             <Link
               href="#reserve"
               className="mt-4 bg-foreground px-5 py-3 text-center text-sm font-medium text-background rounded-full"
               onClick={() => setIsMenuOpen(false)}
             >
-              Contact
+              Kontakt
             </Link>
           </nav>
         </div>
