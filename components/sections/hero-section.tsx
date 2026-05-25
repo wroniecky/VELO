@@ -130,7 +130,7 @@ export function HeroSection() {
                 className="absolute inset-0 z-0 flex items-center justify-center"
                 style={{ opacity: textOpacity, transform: 'translateY(-200px)' }}
               >
-                <h1 className="whitespace-nowrap text-[35vw] font-bold leading-[0.8] tracking-tighter text-black">
+                <h1 className="whitespace-nowrap text-[calc(35vw-20px)] font-bold leading-[0.8] tracking-tighter text-black">
                   {word.split("").map((letter, index) => (
                     <span
                       key={index}
