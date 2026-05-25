@@ -52,7 +52,7 @@ export function ScrollDownButton() {
       }
 
       window.scrollBy({
-        top: 8,
+        top: 16,
         behavior: "auto",
       });
     }, 16);
