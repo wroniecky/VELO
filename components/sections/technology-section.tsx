@@ -78,9 +78,9 @@ const sideImages = [
 ];
 
 const textCycles = [
-  "Design & Sustainability.",
-  "Passive Energy.",
-  "Bio-sourced Construction.",
+  "Piękno, które ma sens.",
+  "Ciepło bez strat.",
+  "Zbudowany z natury.",
 ];
 
 export function TechnologySection() {
