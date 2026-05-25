@@ -144,8 +144,8 @@ export function PhilosophySection() {
       <div ref={descriptionRef} className="px-6 pt-8 pb-20 md:px-12 md:pt-12 md:pb-28 lg:px-20 lg:pt-16 lg:pb-36">
         <div className="text-center">
           
-          <p className="mt-8 leading-relaxed text-muted-foreground text-3xl text-center">
-            {("Dom mobilny, który łączy nowoczesny design, energooszczędne rozwiązania i wygodę codziennego życia. Stworzony dla tych, którzy chcą mieszkać bliżej natury, bez rezygnowania z komfortu.").split(" ").map((word, index, array) => {
+          <p className="mt-8 leading-relaxed text-muted-foreground text-3xl text-center whitespace-pre-line">
+            {("Dom mobilny, który łączy nowoczesny design, energooszczędne rozwiązania i wygodę codziennego życia.\nStworzony dla tych, którzy chcą mieszkać bliżej natury, bez rezygnowania z komfortu.").split(" ").map((word, index, array) => {
               const wordProgress = Math.max(0, Math.min(1, (descriptionProgress * array.length) - index));
               const opacity = wordProgress;
               const blur = (1 - wordProgress) * 40;
