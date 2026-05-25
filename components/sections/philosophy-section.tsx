@@ -4,9 +4,9 @@ import Image from "next/image";
 import { useEffect, useRef, useState, useCallback } from "react";
 
 const titles = [
-  "Sustainable Architecture.",
-  "Built for Tomorrow.",
-  "Eco-Responsible.",
+  "Architektura blisko natury.",
+  "Stworzony z myślą o przyszłości.",
+  "Świadomy wybór. Mniejszy ślad.",
 ];
 
 export function PhilosophySection() {
