@@ -52,10 +52,10 @@ export function ScrollDownButton() {
       }
 
       window.scrollBy({
-        top: 2,
+        top: 8,
         behavior: "auto",
       });
-    }, 10);
+    }, 16);
   };
 
   const stopScrolling = () => {
