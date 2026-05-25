@@ -5,8 +5,8 @@ import { useEffect, useRef, useState, useCallback } from "react";
 
 const titles = [
   "Architektura blisko natury.",
-  "Stworzony z myślą o przyszłości.",
-  "Świadomy wybór. Mniejszy ślad.",
+  "Stworzony z myślą\no przyszłości.",
+  "Świadomy wybór.\nMniejszy ślad.",
 ];
 
 export function PhilosophySection() {
@@ -119,7 +119,7 @@ export function PhilosophySection() {
                   return (
                     <h2 
                       key={index}
-                      className="absolute inset-0 flex items-center justify-center text-[8vw] sm:text-[7vw] font-medium leading-tight tracking-tighter text-foreground md:text-[6vw] lg:text-[5vw] text-center px-4"
+                      className="absolute inset-0 flex items-center justify-center text-[8vw] sm:text-[7vw] font-medium leading-tight tracking-tighter text-foreground md:text-[6vw] lg:text-[5vw] text-center px-4 whitespace-pre-line"
                       style={{
                         transform: `rotateX(${rotateX}deg) translateZ(0)`,
                         opacity,
