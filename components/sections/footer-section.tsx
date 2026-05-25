@@ -25,7 +25,7 @@ const footerLinks = {
 
 export function FooterSection() {
   return (
-    <footer className="bg-background">
+    <footer id="contact" className="bg-background">
       {/* Main Footer Content */}
       <div className="border-t border-border px-6 py-16 md:px-12 md:py-20 lg:px-20">
         <div className="grid grid-cols-2 gap-12 md:grid-cols-4 lg:grid-cols-5">

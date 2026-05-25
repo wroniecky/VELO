@@ -61,7 +61,7 @@ export function Header() {
         {/* CTA */}
         <div className="hidden items-center gap-6 md:flex">
           <Link
-            href="#reserve"
+            href="#contact"
             className="px-4 py-2 text-sm font-medium transition-all rounded-full bg-foreground text-background hover:opacity-80"
           >
             Kontakt
@@ -112,7 +112,7 @@ export function Header() {
               O nas
             </Link>
             <Link
-              href="#reserve"
+              href="#contact"
               className="mt-4 bg-foreground px-5 py-3 text-center text-sm font-medium text-background rounded-full"
               onClick={() => setIsMenuOpen(false)}
             >
